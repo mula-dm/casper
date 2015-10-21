@@ -1,0 +1,492 @@
+{
+  "yawave-sign-in-email": {
+    "domain": "http://dev02.yawave.com/",
+    "email": "r.daniljuk@internetdevels.ua",
+    "pass": "q"
+  },
+  "yawave-add-messages": {
+    "domain": "http://test02.yawave.com/",
+    "email": "r.daniljuk+platform@internetdevels.ua",
+    "pass": "1q2w3e",
+    "WaveId": "5864",
+    "messageNameType": {
+      "1": "Congratulations and underliverableness",
+      "2": "Congratulations on benefit",
+      "3": "Delivery completion",
+      "4": "Apology for delay",
+      "5": "Benefit expiration reminder",
+      "6": "Benefit expiration notification",
+      "7": "Gift to give expiration reminder",
+      "8": "Gift to give expiration notification",
+      "9": "Benefit deletion",
+      "10": "Blocked user notification"
+    },
+    "messageType": 4
+  },
+  "yawave-create-wave": {
+    "domain": "http://dev02.yawave.com/",
+    "email": "r.daniljuk+platform@internetdevels.ua",
+    "pass": "1",
+    "IwantTofindTypes": {
+      "96895": "Customer(s) / Buyer(s)",
+      "96880": "Offerer(s) / Vendor(s)",
+      "96881": "Employer",
+      "96882": "Employee(s)",
+      "96883": "Backers / Investors",
+      "96884": "Donators",
+      "96885": "Supporters",
+      "96886": "Participants",
+      "96887": "Likers",
+      "97072": "Respondents",
+      "96888": "Other"
+    },
+    "IwantTofind": 9632881,
+    "TitleWave": "New Wave 2015"
+  },
+  "yawave-add-benefit-type-payout-benefit": {
+    "domain": "http://dev02.yawave.com/",
+    "email": "r.daniljuk+platform@internetdevels.ua",
+    "pass": "1",
+    "WaveId": "5907",
+    "CurrencyType": {
+      "CHF": "Swiss Franc",
+      "USD": "USD",
+      "EUR": "EURO"
+    },
+    "Currency": "CHF",
+    "AmountDivisibilityTypes": {
+      "NOT_POSSIBLE": "Dynamic allocation is not possible",
+      "POSSIBLE": "Dynamic allocation is not possible"
+    },
+    "AmountDivisibility": "NOT_POSSIBLE",
+    "TransferabilityTypes": {
+      "TRANSFERABLE": "Transferable to a User",
+      "NON_TRANSFERABLE": "Non-transferable"
+    },
+    "Transferability": "TRANSFERABLE",
+    "DeliveryIntervalTypes": {
+      "AT_ENDDATE_OF_BOOSTER": "At Enddate of Booster",
+      "EVERY_DAY": "Every day",
+      "WEEKLY": "Weekly",
+      "BIWEEKLY": "Biweekly",
+      "MONTHLY": "Monthly",
+      "QUARTERLY": "Quarterly",
+      "HALF_YEARLY": "Half-yearly",
+      "ANUALLY": "Annually",
+      "WITH_EVENT": "With Event",
+      "DEPEND_ON_TERMS_AND_CONDIITONS": "Depend on terms and conditions"
+    },
+    "DeliveryInterval": "EVERY_DAY",
+    "lastDeliveryPointTypes": {
+      "AFTER_MONTH": "After a month",
+      "AFTER_WEEK": "After a Week",
+      "AFTER_TWO_WEEKS": "After 2 weeks",
+      "AFTER_QUARTER": "After a quarter",
+      "AFTER_HALF_YEAR": "After a half-yearly",
+      "DEPEND_ON_TERMS_AND_CONDITIONS": "Depend on terms and conditions"
+    },
+    "LastDeliveryPoint": "AFTER_MONTH",
+    "LeftBenefitConditionTypes": {
+      "SEND_BACK_TO_OWNER": "...send benefit back to owner",
+      "DO_NOTHING": "...do nothing"
+    },
+    "LeftBenefitCondition": "DO_NOTHING"
+  },
+  "yawave-add-benefit-type-percentage-based-benefit": {
+    "domain": "http://dev02.yawave.com/",
+    "email": "r.daniljuk+platform@internetdevels.ua",
+    "pass": "1",
+    "WaveId": "5895",
+    "AmountDivisibilityTypes": {
+      "NOT_POSSIBLE": "Dynamic allocation is not possible",
+      "POSSIBLE": "Dynamic allocation is not possible"
+    },
+    "AmountDivisibility": "NOT_POSSIBLE",
+    "ConsumptionConditionTypes": {
+      "GREATER_THAN_CONSUMPTION_AMOUNT": ">= consumption amount",
+      "LESS_THAN_CONSUMPTION_AMOUNT": "<= consumption amount",
+      "NONE": "none"
+    },
+    "ConsumptionCondition": "GREATER_THAN_CONSUMPTION_AMOUNT",
+    "ConsumptionAmount": "100",
+    "ConsumptionCurrencyTypes": {
+      "CHF": "Swiss Franc",
+      "USD": "USD",
+      "EUR": "EURO"
+    },
+    "ConsumptionCurrency": "CHF",
+    "CumulationTypes": {
+      "CUMULATIVE": "Cumulative",
+      "NOT_CUMULATIVE": "Not cumulative"
+    },
+    "Cumulation": "CUMULATIVE",
+    "TransferabilityTypes": {
+      "TRANSFERABLE": "Transferable to a User",
+      "NON_TRANSFERABLE": "Non-transferable"
+    },
+    "Transferability": "TRANSFERABLE",
+    "FormTypes": {
+      "OWNER_BASED_FINANCIAL_TRANSACTION": "Owner based Financial transaction",
+      "OWNER_BASED_DELIVERY": "Owner based Delivery",
+      "OWNER_BASED_EMAIL": "Owner based eMail",
+      "OWNER_BASED_SYSTEMTRANSFER": "Owner based Systemtransfer",
+      "OWNER_BASED_FIXED_CODE": "Owner based fixed Code",
+      "OWNER_GENERATED_UNIQUE_VISIBLE_CODE": "Owner generated, unique Visible Code",
+      "YAWAVE_BASED": "Yawave based"
+    },
+    "Form": "YAWAVE_BASED",
+    "DeliveryIntervalTypes": {
+      "AT_ENDDATE_OF_BOOSTER": "At Enddate of Booster",
+      "EVERY_DAY": "Every day",
+      "WEEKLY": "Weekly",
+      "BIWEEKLY": "Biweekly",
+      "MONTHLY": "Monthly",
+      "QUARTERLY": "Quarterly",
+      "HALF_YEARLY": "Half-yearly",
+      "ANUALLY": "Annually",
+      "WITH_EVENT": "With Event",
+      "DEPEND_ON_TERMS_AND_CONDIITONS": "Depend on terms and conditions"
+    },
+    "DeliveryInterval": "EVERY_DAY",
+    "lastDeliveryPointTypes": {
+      "AFTER_MONTH": "After a month",
+      "AFTER_WEEK": "After a Week",
+      "AFTER_TWO_WEEKS": "After 2 weeks",
+      "AFTER_QUARTER": "After a quarter",
+      "AFTER_HALF_YEAR": "After a half-yearly",
+      "DEPEND_ON_TERMS_AND_CONDITIONS": "Depend on terms and conditions"
+    },
+    "LastDeliveryPoint": "AFTER_MONTH",
+    "LeftBenefitConditionTypes": {
+      "SEND_BACK_TO_OWNER": "...send benefit back to owner",
+      "DO_NOTHING": "...do nothing"
+    },
+    "LeftBenefitCondition": "DO_NOTHING"
+  },
+  "yawave-add-benefit-type-points": {
+    "domain": "http://dev02.yawave.com/",
+    "email": "r.daniljuk+platform@internetdevels.ua",
+    "pass": "1",
+    "WaveId": "6059",
+    "Currency": "My points",
+    "AmountDivisibilityTypes": {
+      "NOT_POSSIBLE": "Dynamic allocation is not possible",
+      "POSSIBLE": "Dynamic allocation is not possible"
+    },
+    "TransferabilityTypes": {
+      "TRANSFERABLE": "Transferable to a User",
+      "NON_TRANSFERABLE": "Non-transferable"
+    },
+    "Transferability": "TRANSFERABLE",
+    "FormTypes": {
+      "OWNER_BASED_FINANCIAL_TRANSACTION": "Owner based Financial transaction",
+      "OWNER_BASED_DELIVERY": "Owner based Delivery",
+      "OWNER_BASED_EMAIL": "Owner based eMail",
+      "OWNER_BASED_SYSTEMTRANSFER": "Owner based Systemtransfer",
+      "OWNER_BASED_FIXED_CODE": "Owner based fixed Code",
+      "OWNER_GENERATED_UNIQUE_VISIBLE_CODE": "Owner generated, unique Visible Code",
+      "YAWAVE_BASED": "Yawave based"
+    },
+    "Form": "OWNER_BASED_DELIVERY",
+    "DeliveryIntervalTypes": {
+      "AT_ENDDATE_OF_BOOSTER": "At Enddate of Booster",
+      "EVERY_DAY": "Every day",
+      "WEEKLY": "Weekly",
+      "BIWEEKLY": "Biweekly",
+      "MONTHLY": "Monthly",
+      "QUARTERLY": "Quarterly",
+      "HALF_YEARLY": "Half-yearly",
+      "ANUALLY": "Annually",
+      "WITH_EVENT": "With Event",
+      "DEPEND_ON_TERMS_AND_CONDIITONS": "Depend on terms and conditions"
+    },
+    "DeliveryInterval": "EVERY_DAY",
+    "lastDeliveryPointTypes": {
+      "AFTER_MONTH": "After a month",
+      "AFTER_WEEK": "After a Week",
+      "AFTER_TWO_WEEKS": "After 2 weeks",
+      "AFTER_QUARTER": "After a quarter",
+      "AFTER_HALF_YEAR": "After a half-yearly",
+      "DEPEND_ON_TERMS_AND_CONDITIONS": "Depend on terms and conditions"
+    },
+    "LastDeliveryPoint": "AFTER_MONTH",
+    "LeftBenefitConditionTypes": {
+      "SEND_BACK_TO_OWNER": "...send benefit back to owner",
+      "DO_NOTHING": "...do nothing"
+    },
+    "LeftBenefitCondition": "DO_NOTHING"
+  },
+  "yawave-add-benefit-type-money-based-benefit": {
+    "domain": "http://dev02.yawave.com/",
+    "email": "r.daniljuk+platform@internetdevels.ua",
+    "pass": "1",
+    "WaveId": "6059",
+    "CurrencyType": {
+      "CHF": "Swiss Franc",
+      "USD": "USD",
+      "EUR": "EURO"
+    },
+    "Currency": "CHF",
+    "AmountDivisibilityTypes": {
+      "NOT_POSSIBLE": "Dynamic allocation is not possible",
+      "POSSIBLE": "Dynamic allocation is not possible"
+    },
+    "AmountDivisibility": "NOT_POSSIBLE",
+    "ConsumptionConditionTypes": {
+      "GREATER_THAN_CONSUMPTION_AMOUNT": ">= consumption amount",
+      "LESS_THAN_CONSUMPTION_AMOUNT": "<= consumption amount",
+      "NONE": "none"
+    },
+    "ConsumptionCondition": "GREATER_THAN_CONSUMPTION_AMOUNT",
+    "ConsumptionAmount": "100",
+    "CumulationTypes": {
+      "CUMULATIVE": "Cumulative",
+      "NOT_CUMULATIVE": "Not cumulative"
+    },
+    "Cumulation": "CUMULATIVE",
+    "TransferabilityTypes": {
+      "TRANSFERABLE": "Transferable to a User",
+      "NON_TRANSFERABLE": "Non-transferable"
+    },
+    "Transferability": "TRANSFERABLE",
+    "FormTypes": {
+      "OWNER_BASED_FINANCIAL_TRANSACTION": "Owner based Financial transaction",
+      "OWNER_BASED_DELIVERY": "Owner based Delivery",
+      "OWNER_BASED_EMAIL": "Owner based eMail",
+      "OWNER_BASED_SYSTEMTRANSFER": "Owner based Systemtransfer",
+      "OWNER_BASED_FIXED_CODE": "Owner based fixed Code",
+      "OWNER_GENERATED_UNIQUE_VISIBLE_CODE": "Owner generated, unique Visible Code",
+      "YAWAVE_BASED": "Yawave based"
+    },
+    "Form": "OWNER_BASED_DELIVERY",
+    "DeliveryIntervalTypes": {
+      "AT_ENDDATE_OF_BOOSTER": "At Enddate of Booster",
+      "EVERY_DAY": "Every day",
+      "WEEKLY": "Weekly",
+      "BIWEEKLY": "Biweekly",
+      "MONTHLY": "Monthly",
+      "QUARTERLY": "Quarterly",
+      "HALF_YEARLY": "Half-yearly",
+      "ANUALLY": "Annually",
+      "WITH_EVENT": "With Event",
+      "DEPEND_ON_TERMS_AND_CONDIITONS": "Depend on terms and conditions"
+    },
+    "DeliveryInterval": "EVERY_DAY",
+    "lastDeliveryPointTypes": {
+      "AFTER_MONTH": "After a month",
+      "AFTER_WEEK": "After a Week",
+      "AFTER_TWO_WEEKS": "After 2 weeks",
+      "AFTER_QUARTER": "After a quarter",
+      "AFTER_HALF_YEAR": "After a half-yearly",
+      "DEPEND_ON_TERMS_AND_CONDITIONS": "Depend on terms and conditions"
+    },
+    "LastDeliveryPoint": "AFTER_MONTH",
+    "LeftBenefitConditionTypes": {
+      "SEND_BACK_TO_OWNER": "...send benefit back to owner",
+      "DO_NOTHING": "...do nothing"
+    },
+    "LeftBenefitCondition": "DO_NOTHING"
+  },
+  "yawave-add-benefit-type-owner-based-benefit": {
+    "domain": "http://dev02.yawave.com/",
+    "email": "r.daniljuk+platform@internetdevels.ua",
+    "pass": "1",
+    "WaveId": "6059",
+    "Currency": "My points",
+    "AmountDivisibilityTypes": {
+      "NOT_POSSIBLE": "Dynamic allocation is not possible",
+      "POSSIBLE": "Dynamic allocation is not possible"
+    },
+    "TransferabilityTypes": {
+      "TRANSFERABLE": "Transferable to a User",
+      "NON_TRANSFERABLE": "Non-transferable"
+    },
+    "Transferability": "TRANSFERABLE",
+    "FormTypes": {
+      "OWNER_BASED_FINANCIAL_TRANSACTION": "Owner based Financial transaction",
+      "OWNER_BASED_DELIVERY": "Owner based Delivery",
+      "OWNER_BASED_EMAIL": "Owner based eMail",
+      "OWNER_BASED_SYSTEMTRANSFER": "Owner based Systemtransfer",
+      "OWNER_BASED_FIXED_CODE": "Owner based fixed Code",
+      "OWNER_GENERATED_UNIQUE_VISIBLE_CODE": "Owner generated, unique Visible Code",
+      "YAWAVE_BASED": "Yawave based"
+    },
+    "Form": "OWNER_BASED_DELIVERY",
+    "DeliveryIntervalTypes": {
+      "AT_ENDDATE_OF_BOOSTER": "At Enddate of Booster",
+      "EVERY_DAY": "Every day",
+      "WEEKLY": "Weekly",
+      "BIWEEKLY": "Biweekly",
+      "MONTHLY": "Monthly",
+      "QUARTERLY": "Quarterly",
+      "HALF_YEARLY": "Half-yearly",
+      "ANUALLY": "Annually",
+      "WITH_EVENT": "With Event",
+      "DEPEND_ON_TERMS_AND_CONDIITONS": "Depend on terms and conditions"
+    },
+    "DeliveryInterval": "EVERY_DAY",
+    "lastDeliveryPointTypes": {
+      "AFTER_MONTH": "After a month",
+      "AFTER_WEEK": "After a Week",
+      "AFTER_TWO_WEEKS": "After 2 weeks",
+      "AFTER_QUARTER": "After a quarter",
+      "AFTER_HALF_YEAR": "After a half-yearly",
+      "DEPEND_ON_TERMS_AND_CONDITIONS": "Depend on terms and conditions"
+    },
+    "LastDeliveryPoint": "AFTER_MONTH",
+    "LeftBenefitConditionTypes": {
+      "SEND_BACK_TO_OWNER": "...send benefit back to owner",
+      "DO_NOTHING": "...do nothing"
+    },
+    "LeftBenefitCondition": "DO_NOTHING"
+  },
+  "yawave-add-benefit-type-benefit-to-give": {
+    "domain": "http://dev02.yawave.com/",
+    "email": "r.daniljuk+platform@internetdevels.ua",
+    "pass": "1",
+    "WaveId": "6059",
+    "AmountTypes": {
+      "FIXED_VALUE": "Fixed Value",
+      "CALCULATED_PROPERTY": "Calculated Property"
+    },
+    "AmountType": "CALCULATED_PROPERTY",
+    "AmountPerEvent": "9",
+    "MonetaryEquivalent": "10",
+    "DeliveryIntervalTypes": {
+      "AT_ENDDATE_OF_BOOSTER": "At Enddate of Booster",
+      "EVERY_DAY": "Every day",
+      "WEEKLY": "Weekly",
+      "BIWEEKLY": "Biweekly",
+      "MONTHLY": "Monthly",
+      "QUARTERLY": "Quarterly",
+      "HALF_YEARLY": "Half-yearly",
+      "ANUALLY": "Annually",
+      "WITH_EVENT": "With Event",
+      "DEPEND_ON_TERMS_AND_CONDIITONS": "Depend on terms and conditions"
+    },
+    "DeliveryInterval": "EVERY_DAY",
+    "lastDeliveryPointTypes": {
+      "AFTER_MONTH": "After a month",
+      "AFTER_WEEK": "After a Week",
+      "AFTER_TWO_WEEKS": "After 2 weeks",
+      "AFTER_QUARTER": "After a quarter",
+      "AFTER_HALF_YEAR": "After a half-yearly",
+      "DEPEND_ON_TERMS_AND_CONDITIONS": "Depend on terms and conditions"
+    },
+    "LastDeliveryPoint": "AFTER_MONTH",
+    "LeftBenefitConditionTypes": {
+      "SEND_BACK_TO_OWNER": "...send benefit back to owner",
+      "DO_NOTHING": "...do nothing"
+    },
+    "LeftBenefitCondition": "DO_NOTHING"
+  },
+  "yawave-add-subpage-referral": {
+    "domain": "http://dev02.yawave.com/",
+    "email": "r.daniljuk+platform@internetdevels.ua",
+    "pass": "1",
+    "WaveId": "6059"
+  },
+  "yawave-add-booster-template": {
+    "domain": "http://dev02.yawave.com/",
+    "email": "r.daniljuk+platform@internetdevels.ua",
+    "pass": "1",
+    "WaveId": "6059",
+    "TitleEventBooster": "Title",
+    "StartDate": "",
+    "StartTime": "",
+    "EndDate": "",
+    "EndTime": "",
+    "IssuingTimeTypes": {
+      "WITH_EVENT": "With Event",
+      "EVERY_DAY": "Every day",
+      "WEEKLY": "Weekly",
+      "BIWEEKLY": "Biweekly",
+      "MONTHLY": "Monthly",
+      "QUARTERLY": "Quarterly",
+      "HALF_YEARLY": "Half-yearly",
+      "ANUALLY": "Annually"
+    },
+    "IssuingTime": "EVERY_DAY",
+    "EventTypes": {
+      "38919": "hasCallForActionButtonClicked",
+      "38920": "hasFormSubmitButtonClicked",
+      "38921": "boolean standardProperty"
+    },
+    "Event": "38919",
+    "TextEventBooster": "Text",
+    "TitleStatic": "Title Static",
+    "TextStatic": "Text Static",
+    "FromEventOrder": "2",
+    "ToEventOrder": "2",
+    "StartPointTypes": {
+      "EVENT": "Event",
+      "OWNER": "Owner"
+    },
+    "StartPoint": "OWNER",
+    "StartPointOffset": "2",
+    "ExclusionTypes": {
+      "OWNER": "Owner",
+      "NONE": "-"
+    },
+    "Exclusion": "Owner",
+    "AmountTypes": {
+      "FIXED_VALUE": "Fixed Value",
+      "CALCULATED_PROPERTY": "Calculated Property"
+    },
+    "AmountType": "CALCULATED_PROPERTY",
+    "CalculatedAmountPerEventTypes": {
+      "38870": "followingPersons",
+      "38872": "duplicationTime",
+      "38873": "rewardVouchers",
+      "38875": "secondLevelGeneratedVisits",
+      "38876": "secondLevelGeneratedConverts",
+      "38877": "referrers",
+      "38879": "generatedConverts",
+      "38880": "rewardGifts",
+      "38881": "levelsFromTopFollowingReferrer",
+      "38882": "rewardMoney",
+      "38883": "convertsConversion",
+      "38884": "thirdPlusLevelGeneratedReferrers",
+      "38885": "firstLevelContactsReached",
+      "38886": "referrals",
+      "38892": "generatedReached",
+      "38895": "waveFactor",
+      "38896": "thirdPlusLevelContactsReached",
+      "38898": "firstLevelGeneratedReferrers",
+      "38900": "thirdPlusLevelGeneratedConverts",
+      "38901": "referrerConversion",
+      "38904": "referralConversion",
+      "38905": "daysInWave",
+      "38907": "secondLevelContactsReached",
+      "38908": "secondLevelGeneratedReferrers",
+      "38909": "firstLevelGeneratedConverts",
+      "38910": "levelsFromTopFollowingAffiliate",
+      "38913": "thirdPlusLevelGeneratedVisits",
+      "38914": "directConverts",
+      "38915": "wavemakerRank",
+      "38916": "totalChildren",
+      "38917": "firstLevelGeneratedVisits",
+      "38924": "calculated standardProperty"
+    },
+    "CalculatedAmountPerEvent": "38915",
+    "AmountPerEvent": "1",
+    "RoundingTypes": {
+      "UP": "Up",
+      "DOWN": "Down",
+      "HALF_UP": "Half up",
+      "HALF_DOWN": "Half down"
+    },
+    "Rounding": "UP",
+    "EndPointTypes": {
+      "EVENT": "Event",
+      "OWNER": "Owner"
+    },
+    "EndPoint": "EVENT",
+    "FractionDigitsTypes": {
+      "0": "0",
+      "1": "1",
+      "2": "2"
+    },
+    "FractionDigits": "0"
+  }
+}

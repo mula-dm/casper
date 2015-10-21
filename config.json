@@ -1,0 +1,11 @@
+{
+  "loginData": {
+    "url": "https://yawave4.testrail.net",
+    "email": "r.daniljuk+testrail@internetdevels.ua",
+    "pass": "EqVcSuFcJWxD8ZDLZPy7"
+  },
+  "project": {
+    "name": "Yawave",
+    "section": "Yawave Test Cases"
+  }
+}
